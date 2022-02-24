@@ -25,3 +25,21 @@ We are building CPU in HDL and also implementing storage allocation strategies l
 3. In the right bottom corner, you will find a icon of folder in the ROM section.
 4. Click on that and add the asm file (either from built in projects, or memory.asm provided in the MemoryTest folder).
 5. Now, run it and see the outcome on the screen.
+
+
+# Contributor
+<details>
+<summary> Anirudh Edpuganti</summary>
+
+ * <a href="https://github.com/ANIRUDH-333">Github</a>
+  
+ * <a href="https://www.facebook.com/anirudhedpuganti/">Facebook</a> 
+
+ * <a href="https://www.instagram.com/anirudhedpuganti/">Instagram</a>
+  
+ * <a href="https://www.linkedin.com/in/edpuganti-anirudh-4755b2205/">Linkedin</a>
+
+
+</details>
+
+  
