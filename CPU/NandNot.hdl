@@ -1,0 +1,9 @@
+//Realize Not using Nand
+
+CHIP NandNot {
+    IN in;
+    OUT out;
+
+    PARTS:
+    Nand (a=in, b=in, out=out);
+}

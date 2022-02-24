@@ -1,0 +1,28 @@
+/**
+ * 16-bit multiplexor: 
+ * for i = 0..15 out[i] = a[i] if sel == 0 
+ *                        b[i] if sel == 1
+ */
+
+CHIP myMux16 {
+    IN a[16], b[16], sel;
+    OUT out[16];
+
+    PARTS:
+	Mux(d0=a[0], d1=b[0], s0=sel, out=out[0]);
+	Mux(d0=a[1], d1=b[1], s0=sel, out=out[1]);
+	Mux(d0=a[2], d1=b[2], s0=sel, out=out[2]);
+	Mux(d0=a[3], d1=b[3], s0=sel, out=out[3]);
+	Mux(d0=a[4], d1=b[4], s0=sel, out=out[4]);
+	Mux(d0=a[5], d1=b[5], s0=sel, out=out[5]);
+	Mux(d0=a[6], d1=b[6], s0=sel, out=out[6]);
+	Mux(d0=a[7], d1=b[7], s0=sel, out=out[7]);
+	Mux(d0=a[8], d1=b[8], s0=sel, out=out[8]);
+	Mux(d0=a[9], d1=b[9], s0=sel, out=out[9]);
+	Mux(d0=a[10], d1=b[10], s0=sel, out=out[10]);
+	Mux(d0=a[11], d1=b[11], s0=sel, out=out[11]);
+	Mux(d0=a[12], d1=b[12], s0=sel, out=out[12]);
+	Mux(d0=a[13], d1=b[13], s0=sel, out=out[13]);
+	Mux(d0=a[14], d1=b[14], s0=sel, out=out[14]);
+	Mux(d0=a[15], d1=b[15], s0=sel, out=out[15]);
+}
